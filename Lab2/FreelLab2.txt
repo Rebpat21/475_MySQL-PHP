@@ -1,0 +1,182 @@
+1.
+Table	Primary Key	Foreign Key(s)
+EMPLOYEE	EMP_CODE	STORE_CODE
+STORE	STORE_CODE	EMP_CODE, REGION_CODE
+REGION	REGION_CODE	NULL
+
+2.
+Table	Referential Integrity	Explanation
+EMPLOYEE	Yes	EMPLOYEE.STORE_CODE is a foreign key and has a Primary Key in STORE.STORE_CODE.
+STORE	Yes	STORE.EMP_CODE is a foreign key and has a Primary Key on EMPLOYEE.EMP_CODE.
+STORE.REGION_CODE is a Foreign Key and has a Primary Key in REGION.REGION_CODE.
+REGION	NA	No foreign key
+
+MariaDB [ptfreel]> describe EMPLOYEE_Lab2;
++-------------+-------------+------+-----+---------+-------+
+| Field       | Type        | Null | Key | Default | Extra |
++-------------+-------------+------+-----+---------+-------+
+| EMP_CODE    | int(11)     | NO   | PRI | NULL    |       |
+| EMP_TITLE   | varchar(4)  | YES  |     | NULL    |       |
+| EMP_LNAME   | varchar(15) | YES  |     | NULL    |       |
+| EMP_FNAME   | varchar(15) | YES  |     | NULL    |       |
+| EMP_INITIAL | varchar(1)  | YES  |     | NULL    |       |
+| EMP_DOB     | datetime    | YES  |     | NULL    |       |
+| STORE_CODE  | int(11)     | YES  | MUL | NULL    |       |
++-------------+-------------+------+-----+---------+-------+
+7 rows in set (0.00 sec)
+
+MariaDB [ptfreel]> describe STORE_Lab2;
++-----------------+---------------+------+-----+---------+-------+
+| Field           | Type          | Null | Key | Default | Extra |
++-----------------+---------------+------+-----+---------+-------+
+| STORE_CODE      | int(11)       | NO   | PRI | NULL    |       |
+| STORE_NAME      | varchar(20)   | YES  |     | NULL    |       |
+| STORE_YTD_SALES | decimal(10,0) | YES  |     | NULL    |       |
+| REGION_CODE     | int(11)       | YES  | MUL | NULL    |       |
+| EMP_CODE        | int(11)       | YES  |     | NULL    |       |
++-----------------+---------------+------+-----+---------+-------+
+5 rows in set (0.00 sec)
+
+MariaDB [ptfreel]> describe REGION_Lab2;
++-----------------+-------------+------+-----+---------+-------+
+| Field           | Type        | Null | Key | Default | Extra |
++-----------------+-------------+------+-----+---------+-------+
+| REGION_CODE     | int(11)     | NO   | PRI | NULL    |       |
+| REGION_DESCRIPT | varchar(10) | YES  |     | NULL    |       |
++-----------------+-------------+------+-----+---------+-------+
+2 rows in set (0.00 sec)
+
+
+MariaDB [ptfreel]> source Lab2Queries.sql
+Query OK, 21 rows affected (0.01 sec)
+Records: 21  Duplicates: 0  Warnings: 0
+
++-------------------+
+| STORE_NAME        |
++-------------------+
+| Tuple Charge      |
+| Primary Key Point |
++-------------------+
+2 rows in set (0.00 sec)
+
++-----------------+
+| STORE_NAME      |
++-----------------+
+| Access Junction |
+| Database Corner |
+| Attribute Alley |
++-----------------+
+3 rows in set (0.01 sec)
+
++-----------+
+| EMP_LNAME |
++-----------+
+| Renselaer |
+| Johnsson  |
+| Mckee     |
++-----------+
+3 rows in set (0.00 sec)
+
++------------+
+| EMP_LNAME  |
++------------+
+| Ratula     |
+| Eindsmar   |
+| Washington |
++------------+
+3 rows in set (0.00 sec)
+
++------------+
+| EMP_LNAME  |
++------------+
+| Williamson |
+| Smith      |
+| Ogallo     |
+| Broderick  |
+| Smith      |
+| Baumann    |
++------------+
+6 rows in set (0.00 sec)
+
++-----------+
+| EMP_LNAME |
++-----------+
+| Greenboro |
+| Jones     |
+| Smith     |
+| Grimaldo  |
+| Rosenberg |
+| Rosten    |
++-----------+
+6 rows in set (0.00 sec)
+
++------------+
+| EMP_LNAME  |
++------------+
+| Rumpersfro |
+| Olenko     |
+| Archialo   |
++------------+
+3 rows in set (0.00 sec)
+
++------------+
+| EMP_LNAME  |
++------------+
+| Williamson |
+| Smith      |
+| Ogallo     |
+| Broderick  |
+| Smith      |
+| Baumann    |
+| Rumpersfro |
+| Olenko     |
+| Archialo   |
++------------+
+9 rows in set (0.00 sec)
+
++------------+
+| EMP_LNAME  |
++------------+
+| Renselaer  |
+| Johnsson   |
+| Mckee      |
+| Ratula     |
+| Eindsmar   |
+| Washington |
+| Greenboro  |
+| Jones      |
+| Smith      |
+| Grimaldo   |
+| Rosenberg  |
+| Rosten     |
++------------+
+12 rows in set (0.00 sec)
+
++------------+
+| EMP_LNAME  |
++------------+
+| Williamson |
+| Smith      |
+| Ogallo     |
+| Broderick  |
+| Smith      |
+| Rumpersfro |
+| Olenko     |
+| Archialo   |
++------------+
+8 rows in set (0.00 sec)
+
++------------+
+| EMP_LNAME  |
++------------+
+| Johnsson   |
+| Mckee      |
+| Ratula     |
+| Washington |
+| Grimaldo   |
+| Rosenberg  |
+| Rosten     |
++------------+
+7 rows in set (0.00 sec)
+
+MariaDB [ptfreel]> notee

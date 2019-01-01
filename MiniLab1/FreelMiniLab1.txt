@@ -1,0 +1,67 @@
+MariaDB [ptfreel]> source FreelMiniLab1.sql
++---------------+
+| continent     |
++---------------+
+| Asia          |
+| Europe        |
+| North America |
+| Africa        |
+| Oceania       |
+| South America |
+| Antarctica    |
++---------------+
+7 rows in set (0.00 sec)
+
++---------------+---------------------+
+| Continent     | Number of Countries |
++---------------+---------------------+
+| Asia          |                  51 |
+| Europe        |                  46 |
+| North America |                  37 |
+| Africa        |                  58 |
+| Oceania       |                  28 |
+| Antarctica    |                   5 |
+| South America |                  14 |
++---------------+---------------------+
+7 rows in set (0.00 sec)
+
++---------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Continent     | Countries                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
++---------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Asia          | Japan,Cyprus,Laos,Lebanon,Georgia,Macao,Philippines,Maldives,Malaysia,Mongolia,Myanmar,Nepal,Oman,Pakistan,Qatar,Kuwait,South Korea,Yemen,Jordan,East Timor,Israel,Cambodia,Kazakstan,Iran,Iraq,India,Indonesia,China,Hong Kong,Kyrgyzstan,North Korea,Turkey,Brunei,Thailand,Bhutan,United Arab Emirates,Turkmenistan,Syria,Armenia,Tajikistan,Taiwan,Azerbaijan,Bangladesh,Bahrain,Uzbekistan,Vietnam,Saudi Arabia,Afghanistan,Singapore,Palestine,Sri Lanka                                                                                                                                                               |
+| Europe        | Croatia,Greece,Holy See (Vatican City State),Estonia,Belarus,Czech Republic,San Marino,Yugoslavia,Russian Federation,Poland,Hungary,Ukraine,Latvia,Sweden,Romania,France,Portugal,Slovakia,Slovenia,Finland,Monaco,Moldova,Malta,Switzerland,Macedonia,Norway,Luxembourg,Lithuania,Liechtenstein,Denmark,Germany,Belgium,Albania,Bosnia and Herzegovina,Svalbard and Jan Mayen,Spain,United Kingdom,Ireland,Bulgaria,Faroe Islands,Netherlands,Iceland,Italy,Gibraltar,Austria,Andorra                                                                                                                                       |
+| North America | Mexico,Grenada,Martinique,Bermuda,Belize,Virgin Islands, British,El Salvador,Montserrat,Cayman Islands,Panama,Dominica,Dominican Republic,Saint Kitts and Nevis,Saint Lucia,Saint Vincent and the Grenadines,Saint Pierre and Miquelon,Nicaragua,Puerto Rico,Costa Rica,Barbados,Cuba,Anguilla,Guatemala,Canada,Aruba,Virgin Islands, U.S.,Guadeloupe,Turks and Caicos Islands,United States,Greenland,Honduras,Haiti,Netherlands Antilles,Antigua and Barbuda,Trinidad and Tobago,Jamaica,Bahamas                                                                                                                           |
+| Africa        | Angola,Burundi,Zimbabwe,Rwanda,Saint Helena,British Indian Ocean Territory,R?union,Equatorial Guinea,Algeria,Senegal,Burkina Faso,Togo,Benin,Chad,Swaziland,Sudan,Somalia,Botswana,Tunisia,Sierra Leone,Seychelles,Uganda,Sao Tome and Principe,Zambia,Tanzania,Djibouti,Cameroon,Western Sahara,Gabon,Malawi,Ethiopia,Mali,South Africa,Morocco,Mauritania,Mauritius,Gambia,Ghana,Libyan Arab Jamahiriya,Cape Verde,Central African Republic,Comoros,Congo,Congo, The Democratic Republic of the,Guinea-Bissau,Guinea,Lesotho,Liberia,Mayotte,Nigeria,Namibia,C?te d?Ivoire,Kenya,Niger,Egypt,Mozambique,Eritrea,Madagascar |
+| Oceania       | New Zealand,New Caledonia,Cocos (Keeling) Islands,Tuvalu,French Polynesia,Christmas Island,Nauru,United States Minor Outlying Islands,Pitcairn,Palau,Kiribati,Cook Islands,American Samoa,Vanuatu,Wallis and Futuna,Guam,Australia,Solomon Islands,Samoa,Marshall Islands,Fiji Islands,Niue,Norfolk Island,Micronesia, Federated States of,Northern Mariana Islands,Tokelau,Tonga,Papua New Guinea                                                                                                                                                                                                                           |
+| Antarctica    | French Southern territories,Heard Island and McDonald Islands,Bouvet Island,Antarctica,South Georgia and the South Sandwich Islands                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| South America | Peru,Brazil,Colombia,Paraguay,Argentina,Guyana,French Guiana,Uruguay,Chile,Falkland Islands,Ecuador,Suriname,Bolivia,Venezuela                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
++---------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+7 rows in set (0.00 sec)
+
++------------------------+-------------+
+| title                  | # of Tracks |
++------------------------+-------------+
+| Apostrophe             |           9 |
+| Birds of Fire          |          10 |
+| Hendrix in the West    |           9 |
+| Kind of Blue           |           5 |
+| Live And               |           6 |
+| Rubber Soul            |          14 |
+| Two Men with the Blues |          10 |
++------------------------+-------------+
+7 rows in set (0.00 sec)
+
++------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| title                  | Track Title                                                                                                                                                                                                         |
++------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Apostrophe             | Apostrophe,Cosmik Debris,Don't Eat the Yellow Snow,Excentrifugal Forz,Father O'Blivion,Nanook Rubs It,St. Alfonzo's Pancake Breakfast,Stink-Foot,Uncle Remus                                                        |
+| Birds of Fire          | Birds of Fire,Celestial Terrestrial Commuters,Hope,Miles Beyond,One Word,Open Country Joy,Resolution,Sanctuary,Sapphire Bullets of Pure Love,Thousand Island Park                                                   |
+| Hendrix in the West    | Blue Suede xShoes,Fake Track,Johnny B. Goode,Little Wing,Lover Man,Red House,Sgt. Pepper's Lonely Hearts Club Band,The Queen,Voodoo Chile                                                                           |
+| Kind of Blue           | All Blues,Blue in Green,Flamenco Sketches,Freddy Freeloader,So What                                                                                                                                                 |
+| Live And               | Good Morning Little Schoolgirl,It's My Own Fault,Johnny B. Goode,Jumpin' Jack Flash,Mean Town Blues,Rock And Roll Medley                                                                                            |
+| Rubber Soul            | Drive My Car,Girl,I'm Looking Through You,If I Needed Someone,In My Life,Michelle,Norwegian Wood (This Bird Has Flown),Nowhere Man,Run for Your Life,The Word,Think for Yourself,Wait,What Goes On,You Won't See Me |
+| Two Men with the Blues | Ain't Nobody's Business,Basin Street Blues,Bright Lights Big City,Caldonia,Georgia On My Mind,My Bucket's Got A Hole In It,Night Life,Rainy Day Blues,Stardust,That's All                                           |
++------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+7 rows in set (0.00 sec)
+
+MariaDB [ptfreel]> notee

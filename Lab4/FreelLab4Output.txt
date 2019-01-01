@@ -1,0 +1,81 @@
+
+MariaDB [ptfreel]> source FreelLab4.sql
++---------------+-------------------------------------------------------------------------------------------------------------------------------------------------+
+| COLORNAME     | Colorants                                                                                                                                       |
++---------------+-------------------------------------------------------------------------------------------------------------------------------------------------+
+| BarnRed       | Yellow Oxide,Medium Yellow,Phalo Green,Magenta,Phalo Blue,Red Oxide,Brown Oxide,Titanium White,Organic Yellow,Raw_Umber,Black Oxide,Organic Red |
+| DustyMauve    | Titanium White,Organic Yellow,Raw_Umber,Black Oxide,Organic Red,Yellow Oxide,Medium Yellow,Phalo Green,Magenta,Phalo Blue,Red Oxide,Brown Oxide |
+| JPastel       | Phalo Blue,Red Oxide,Brown Oxide,Titanium White,Organic Yellow,Raw_Umber,Black Oxide,Organic Red,Yellow Oxide,Medium Yellow,Phalo Green,Magenta |
+| NavajoRed     | Organic Yellow,Raw_Umber,Black Oxide,Organic Red,Yellow Oxide,Medium Yellow,Phalo Green,Magenta,Phalo Blue,Red Oxide,Brown Oxide,Titanium White |
+| Silver        | Red Oxide,Brown Oxide,Titanium White,Organic Yellow,Raw_Umber,Black Oxide,Organic Red,Yellow Oxide,Medium Yellow,Phalo Green,Magenta,Phalo Blue |
+| TangierIsland | Phalo Green,Magenta,Phalo Blue,Red Oxide,Brown Oxide,Titanium White,Organic Yellow,Raw_Umber,Black Oxide,Organic Red,Yellow Oxide,Medium Yellow |
++---------------+-------------------------------------------------------------------------------------------------------------------------------------------------+
+6 rows in set (0.00 sec)
+
++----------------+----------------+
+| COLORANTNAME   | Colorant_Count |
++----------------+----------------+
+| Black Oxide    |              3 |
+| Brown Oxide    |              1 |
+| Magenta        |              4 |
+| Medium Yellow  |              3 |
+| Organic Red    |              1 |
+| Organic Yellow |              2 |
+| Phalo Blue     |              1 |
+| Raw_Umber      |              2 |
+| Red Oxide      |              2 |
+| Titanium White |              2 |
++----------------+----------------+
+10 rows in set (0.00 sec)
+
++--------------+
+| COLORANTNAME |
++--------------+
+| Black Oxide  |
+| Yellow Oxide |
+| Red Oxide    |
+| Brown Oxide  |
++--------------+
+4 rows in set (0.00 sec)
+
++-----------+
+| ColorName |
++-----------+
+| BarnRed   |
+| Silver    |
++-----------+
+2 rows in set (0.00 sec)
+
++----------------+--------------+
+| ColorantName   | Total_Ounces |
++----------------+--------------+
+| Black Oxide    |       1.1979 |
+| Brown Oxide    |       2.8646 |
+| Magenta        |       3.3230 |
+| Medium Yellow  |       3.5104 |
+| Organic Red    |       5.9896 |
+| Organic Yellow |       3.5417 |
+| Phalo Blue     |       0.1146 |
+| Raw_Umber      |       1.1041 |
+| Red Oxide      |       1.0416 |
+| Titanium White |       1.3125 |
++----------------+--------------+
+10 rows in set (0.00 sec)
+
++----------------+-----------------------------------+
+| ColorantName   | Paints                            |
++----------------+-----------------------------------+
+| Black Oxide    | BarnRed,TangierIsland,DustyMauve  |
+| Brown Oxide    | NavajoRed                         |
+| Magenta        | JPastel,Silver,BarnRed,DustyMauve |
+| Medium Yellow  | NavajoRed,DustyMauve,JPastel      |
+| Organic Red    | NavajoRed                         |
+| Organic Yellow | TangierIsland,BarnRed             |
+| Phalo Blue     | Silver                            |
+| Raw_Umber      | Silver,JPastel                    |
+| Red Oxide      | BarnRed,TangierIsland             |
+| Titanium White | NavajoRed,BarnRed                 |
++----------------+-----------------------------------+
+10 rows in set (0.00 sec)
+
+MariaDB [ptfreel]> notee

@@ -1,0 +1,90 @@
+MariaDB [ptfreel]> source FinalPart2.sql;
+
++-------+-------+------------+---------------+------+-------+--------------------+-------+------+
+
+| lname | fname | address    | city          | st   | zip   | title              | price | days |
+
++-------+-------+------------+---------------+------+-------+--------------------+-------+------+
+
+| Major | Roger | 1828 Raven | Mountain View | CA   | 94041 | Financial Planning | 99.99 |  365 |
+
++-------+-------+------------+---------------+------+-------+--------------------+-------+------+
+
+1 row in set (0.00 sec)
+
++-----------+---------+---------------+---------------+------+-------+-----------------------------+-------+------+
+
+| lname     | fname   | address       | city          | st   | zip   | title                       | price | days |
+
++-----------+---------+---------------+---------------+------+-------+-----------------------------+-------+------+
+
+| Deerfield | Linda   | 28 Lakeview   | Kalamazoo     | MI   | 49007 | Kiplingers Personal Finance | 12.00 |  183 |
+
+| Dutil     | Julie   | 3829 Central  | Beaverton     | OR   | 97005 | Harpers                     | 39.99 |  365 |
+
+| Jones     | Kiara   | 3827 Devon    | Grand Rapids  | MI   | 49503 | US News & World Report      | 35.00 |  183 |
+
+| Knowles   | Michael | 282 Columbia  | Poughkeepsie  | NY   | 12601 | ESPN The Magazine           | 29.95 |  366 |
+
+| Major     | Roger   | 1828 Raven    | Mountain View | CA   | 94041 | Financial Planning          | 99.99 |  365 |
+
+| Otter     | Carol   | 1520 S. Lamar | Oxford        | MS   | 38655 | The Nation                  | 50.00 |  365 |
+
+| Penn      | Doug    | 107 Webster   | Cincinnati    | OH   | 45202 | The Atlantic                | 24.95 |  365 |
+
+| Smith     | Allen   | 2837 Greenway | Ridgeland     | MS   | 39157 | Money                       | 14.95 |  365 |
+
+| Von       | David   | 372 Broadway  | Walnut Creek  | CA   | 94598 | NASCAR Illustrated          | 45.00 |  366 |
+
+| Xiu       | Peter   | 382 Wildwood  | New York City | NY   | 10007 | The Economist               | 99.99 |  366 |
+
+| Xiu       | Peter   | 382 Wildwood  | New York City | NY   | 10007 | Real Simple                 | 23.88 |  275 |
+
++-----------+---------+---------------+---------------+------+-------+-----------------------------+-------+------+
+
+11 rows in set (0.00 sec)
+
+
++---------------------+
+
+| category            |
+
++---------------------+
+
+| Best Sellers        |
+
+| Business & Finance  |
+
+| Entertainment       |
+
+| News & Politics     |
+
+| Sports & Recreation |
+
++---------------------+
+
+5 rows in set (0.00 sec)
+
+
++---------------------+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+| category            | titles                                                                                                                                                                            
+|
++---------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+| Best Sellers        | Real Simple,Food Network Magazine,Popular Mechanics,Southern Living,National Geographic                                                                                             |
+
+| Business & Finance  | Kiplingers Personal Finance,Inc.,Fortune,The Economist,Financial Planning,Forbes,Consumer Reports,Money                                                                             |
+
+| Entertainment       | MAD Magazine,People,Us Weekly,Entertainment Weekly,Rolling Stone,TV Guide                                                                                                        
+
+| News & Politics     | Time,The Nation,The New Yorker,Harpers,The Atlantic,The Week,US News & World Report,Newsweek                                                                                        
+|
+ Sports & Recreation | Sports Illustrated,Sports Weekly,American Cheerleader,Mountain Bike Action,Baseball Digest,Deer & Deer Hunting,Skiing,NASCAR Illustrated,ESPN The Magazine,Golf Magazine,Bassmaster 
+|
++---------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+5 rows in set (0.00 sec)
+
+
+MariaDB [ptfreel]> notee
